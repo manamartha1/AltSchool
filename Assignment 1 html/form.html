@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alt School Application Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>First Assignment</h1>
+      <nav>
+        <a href="index.html">About Mana</a>
+        <a href="form.html">The form</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Signup</h2>
+      <p>Take the next steps to apply at AltSchool Africa</p>
+      <form action="" method="post">
+        <label for="first name">First Name</label>
+        <input
+          type="text"
+          placeholder="Enter first name"
+          required
+        /><br /><br />
+
+        <label for="last name">Last Name</label>
+        <input
+          type="text"
+          name="last_name"
+          placeholder="Enter last name"
+          required
+        /><br /><br />
+
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender" required>
+          <option value="" disabled selected>Select gender</option>
+          <option value="female">Female</option>
+          <option value="male">Male</option></select
+        ><br /><br />
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="date_of_birth" required /><br /><br />
+
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter email address"
+          required
+        /><br /><br />
+
+        <label for="phone-number">Phone Number</label>
+        <input
+          type="tel"
+          name="phone_number"
+          placeholder="Enter phone number"
+          required
+        /><br /><br />
+
+        <label for="country">Country</label>
+        <input
+          type="text"
+          name="country"
+          placeholder="Select your country"
+          required
+        /><br /><br />
+
+        <label for="state">State/City of Residence</label>
+        <input
+          type="text"
+          name="state_city"
+          placeholder="Enter your state of residence"
+          required
+        /><br /><br />
+
+        <label for="referral">How did you hear about us?</label>
+        <select id="referral" name="referral" required>
+          <option value="" disabled selected>Select channel</option>
+          <option value="social_media">Social Media</option>
+          <option value="friend">Friend</option>
+          <option value="search_engine">Search Engine</option></select
+        ><br /><br />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter password"
+          required
+        /><br /><br />
+
+        <label for="confirm-password">Confirm Password</label>
+        <input
+          type="password"
+          id="confirm-password"
+          name="confirm_password"
+          placeholder="Enter password again"
+          required
+        /><br /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>Address: 123 Alt School Street, Lagos, Nigeria</p>
+      <p>&copy; 2024 Alt School Africa. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
